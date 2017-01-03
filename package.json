@@ -1,0 +1,15 @@
+{
+  "title": "Peek Download File",
+  "name": "downloadfilepeeker",
+  "version": "0.0.0",
+  "description": "A basic add-on",
+  "main": "index.js",
+  "author": "Arjun Suresh",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}

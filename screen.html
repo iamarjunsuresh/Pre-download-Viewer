@@ -1,0 +1,112 @@
+
+<html >
+	 <meta charset="UTF-8"> 
+
+	<head>
+		
+
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="ui.js"></script>
+	<link href="st.css" rel="stylesheet"/>
+	</head>
+	
+<body>
+	
+	<div>
+		<div class="top-logo">
+			<div class="img">
+		<img src="icons/icon200.png"/>
+			</div>
+		</div>
+		    <div class="tab-titles">
+    <div class="tab-title tab-selected" id="tab1" >Counters</div>
+    <div class="tab-title"  id="tab2">Statistics</div>
+    <div class="tab-title"  id="tab3">About</div>
+		<div class="tab-content" id="tabc1">
+		<div class="counts">
+		<div class="counter">
+			<div class="counter-txt counter-common">This Month:</div>
+			<div class="counter-val counter-common" id="month_val"></div>
+			<div class="counter-reset counter-common" id="reset_month">				<img src="reset.png" class="reset_but" />
+			</div>
+		</div>
+		
+		<div class="counter">
+			<div class="counter-txt counter-common">Today:</div>
+			<div class="counter-val counter-common" id="day_val"></div>
+			<div class="counter-reset counter-common" id="reset_day">
+				<img src="reset.png" class="reset_but" />
+				
+			</div>
+		</div>
+		</div>
+		
+		<div class="options" >
+			<div class="opt">
+				<div class="option_txt flt">MB/GB</div>
+				<div class="m-button" id="tmb">
+                    <div class="rect">
+
+                    </div>
+                    <div id="knoble_mb" class="knob knob-on">
+                    </div>
+                </div>
+
+
+		
+			</div>
+			<div class="opt">
+				<div class="option_txt flt">ON/OFF</div>
+			<div class="m-button" id="ton">
+                    <div class="rect">
+
+                    </div>
+                    <div id="knoble" class="knob knob-on">
+                    </div>
+                </div>
+
+			</div>
+		
+			</div>
+		</div>
+	
+	</div>
+	<div class="tab-content tab-content-unselected" id="tabc2">
+	<div id="stats" class="stats-data">
+		<h1>STATISTICS</h1>
+		<!--<div class="stat-item">
+			<div class="stat-url" >google.com</div>
+			<div class="stat-mb">10000 MB</div>
+			<div class="stat-bar"></div>
+		</div>
+	<div class="stat-item">
+			<div class="stat-url" >goasdogle.com</div>
+			<div class="stat-mb">10400 MB</div>
+			<div class="stat-bar"></div>
+		</div>
+	
+	-->
+	
+	
+	
+	
+	</div>
+	
+		</div>
+    <div class="tab-content tab-content-unselected" id="tabc3" >
+
+        <h5 style="padding-top:20px;font-size:24px;">Datum:Data Usage Statistics</h5>
+        <div style="font-size:15px;">Version:1.0</div>
+        
+        <span style="font-size:19px;" id="arate">Developed By Arjun Suresh</span>
+		<br/>
+        <span style="font-size:19px;" id="arate">Feedback:<a target="_blank" href="http://www.advancedbytes.in/suggest">Advancedbytes.in</a> </span><br/>
+        <span style="font-size:19px;" id="arate">Contact:123arjunsuresh@gmail.com</span>
+		</div>
+		</div>
+	
+	
+	
+
+</body>
+</html>
